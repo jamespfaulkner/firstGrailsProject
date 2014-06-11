@@ -1,0 +1,4 @@
+firstGrailsProject
+==================
+
+First Grails Project
