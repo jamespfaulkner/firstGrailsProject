@@ -1,0 +1,31 @@
+Testsuite: com.james.payment.EmailServiceSpec
+Tests run: 2, Failures: 0, Errors: 2, Time elapsed: 0.753 sec
+------------- Standard Output ---------------
+--Output from Two emails are sent--
+--Output from Emails contain the correct values--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from Two emails are sent--
+--Output from Emails contain the correct values--
+------------- ---------------- ---------------
+
+Testcase: Two emails are sent took 0.55 sec
+	Caused an ERROR
+No signature of method: com.james.payment.EmailService.sendMail() is applicable for argument types: (com.james.payment.EmailService$_sendIncomingTransactionMail_closure1) values: [com.james.payment.EmailService$_sendIncomingTransactionMail_closure1@f7dd680]
+Possible solutions: sendEmails(com.james.payment.Transaction), findAll()
+groovy.lang.MissingMethodException: No signature of method: com.james.payment.EmailService.sendMail() is applicable for argument types: (com.james.payment.EmailService$_sendIncomingTransactionMail_closure1) values: [com.james.payment.EmailService$_sendIncomingTransactionMail_closure1@f7dd680]
+Possible solutions: sendEmails(com.james.payment.Transaction), findAll()
+	at com.james.payment.EmailService.sendIncomingTransactionMail(EmailService.groovy:14)
+	at com.james.payment.EmailService.sendEmails(EmailService.groovy:9)
+	at com.james.payment.EmailServiceSpec.Two emails are sent(EmailServiceSpec.groovy:27)
+
+Testcase: Emails contain the correct values took 0.093 sec
+	Caused an ERROR
+No signature of method: com.james.payment.EmailService.sendMail() is applicable for argument types: (com.james.payment.EmailService$_sendIncomingTransactionMail_closure1) values: [com.james.payment.EmailService$_sendIncomingTransactionMail_closure1@5884c50c]
+Possible solutions: sendEmails(com.james.payment.Transaction), findAll()
+groovy.lang.MissingMethodException: No signature of method: com.james.payment.EmailService.sendMail() is applicable for argument types: (com.james.payment.EmailService$_sendIncomingTransactionMail_closure1) values: [com.james.payment.EmailService$_sendIncomingTransactionMail_closure1@5884c50c]
+Possible solutions: sendEmails(com.james.payment.Transaction), findAll()
+	at com.james.payment.EmailService.sendIncomingTransactionMail(EmailService.groovy:14)
+	at com.james.payment.EmailService.sendEmails(EmailService.groovy:9)
+	at com.james.payment.EmailServiceSpec.Emails contain the correct values(EmailServiceSpec.groovy:37)
+

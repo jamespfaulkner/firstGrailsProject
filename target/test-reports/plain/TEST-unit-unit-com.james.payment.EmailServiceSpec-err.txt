@@ -1,0 +1,2 @@
+--Output from Two emails are sent--
+--Output from Emails contain the correct values--

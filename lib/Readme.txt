@@ -1,0 +1,1 @@
+grails-rt.jar is only here due to some intellij issue with running the test cases. See http://stackoverflow.com/questions/19613363/grails-2-2-to-2-3-error-running-forked-test-app-could-not-load-grails-build-l

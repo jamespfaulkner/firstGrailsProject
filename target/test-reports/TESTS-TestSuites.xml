@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="2" failures="0" hostname="jamwinmac" id="0" name="EmailServiceSpec" package="com.james.payment" tests="2" time="0.753" timestamp="2014-05-17T17:30:35">
+      <properties />
+
+      <testcase classname="com.james.payment.EmailServiceSpec" name="Two emails are sent" time="0.603">
+          <error message="No signature of method: com.james.payment.EmailService.sendMail() is applicable for argument types: (com.james.payment.EmailService$_sendIncomingTransactionMail_closure1) values: [com.james.payment.EmailService$_sendIncomingTransactionMail_closure1@f7dd680]&#xa;Possible solutions: sendEmails(com.james.payment.Transaction), findAll()" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: com.james.payment.EmailService.sendMail() is applicable for argument types: (com.james.payment.EmailService$_sendIncomingTransactionMail_closure1) values: [com.james.payment.EmailService$_sendIncomingTransactionMail_closure1@f7dd680]
+Possible solutions: sendEmails(com.james.payment.Transaction), findAll()
+	at com.james.payment.EmailService.sendIncomingTransactionMail(EmailService.groovy:14)
+	at com.james.payment.EmailService.sendEmails(EmailService.groovy:9)
+	at com.james.payment.EmailServiceSpec.Two emails are sent(EmailServiceSpec.groovy:27)
+</error>
+
+      </testcase>
+
+      <testcase classname="com.james.payment.EmailServiceSpec" name="Emails contain the correct values" time="0.108">
+          <error message="No signature of method: com.james.payment.EmailService.sendMail() is applicable for argument types: (com.james.payment.EmailService$_sendIncomingTransactionMail_closure1) values: [com.james.payment.EmailService$_sendIncomingTransactionMail_closure1@5884c50c]&#xa;Possible solutions: sendEmails(com.james.payment.Transaction), findAll()" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: com.james.payment.EmailService.sendMail() is applicable for argument types: (com.james.payment.EmailService$_sendIncomingTransactionMail_closure1) values: [com.james.payment.EmailService$_sendIncomingTransactionMail_closure1@5884c50c]
+Possible solutions: sendEmails(com.james.payment.Transaction), findAll()
+	at com.james.payment.EmailService.sendIncomingTransactionMail(EmailService.groovy:14)
+	at com.james.payment.EmailService.sendEmails(EmailService.groovy:9)
+	at com.james.payment.EmailServiceSpec.Emails contain the correct values(EmailServiceSpec.groovy:37)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from Two emails are sent--
+--Output from Emails contain the correct values--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from Two emails are sent--
+--Output from Emails contain the correct values--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

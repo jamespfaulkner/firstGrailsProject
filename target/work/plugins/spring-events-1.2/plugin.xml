@@ -1,0 +1,17 @@
+<plugin name='spring-events' version='1.2' grailsVersion='1.2.0 &gt; *'>
+  <author>Rob Fletcher</author>
+  <authorEmail>rob@energizedwork.com</authorEmail>
+  <title>Grails Spring Events Plugin</title>
+  <description>Provides asynchronous Spring application event processing for Grails applications</description>
+  <documentation>http://grails.org/plugin/spring-events</documentation>
+  <type>SpringEventsGrailsPlugin</type>
+  <resources>
+    <resource>grails.plugin.springevents.test.TestController</resource>
+    <resource>org.codehaus.groovy.grails.plugin.springevents.test.Album</resource>
+    <resource>org.codehaus.groovy.grails.plugin.springevents.test.Song</resource>
+    <resource>grails.plugin.springevents.test.TestListenerService</resource>
+    <resource>grails.plugin.springevents.test.TestTransactionalListenerService</resource>
+  </resources>
+  <dependencies />
+  <behavior />
+</plugin>
