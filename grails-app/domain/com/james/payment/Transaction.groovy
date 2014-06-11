@@ -11,7 +11,7 @@ class Transaction {
     Date dateCreated
 
     static constraints = {
-        amount nullable: false, min: 0.01, scale: 2, max: 300.0      //Maximum of £300 per transaction
+        amount nullable: false, min: 0.01, scale: 2
         from nullable: false
         to nullable: false, validator: { val, obj ->
             if (val == obj.from) {
