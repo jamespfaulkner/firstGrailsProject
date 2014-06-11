@@ -1,4 +1,4 @@
 firstGrailsProject
 ==================
 
-First Grails Project
+First attempt at creating a simple Grails project.
